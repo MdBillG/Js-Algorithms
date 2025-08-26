@@ -23,3 +23,7 @@ while(leftIndex <=rightIndex){
 }
 
 console.log(binarySearch([1,2,3,5,6,7,8,9,10],9))
+
+//binary seaech only works on ssorted array
+// we will divide the array into middle left and right
+// using middle we will compare our target left part and right part
