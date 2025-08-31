@@ -19,9 +19,15 @@ const promise =new Promise((resolve, reject)=>{
     }
 })
 
-promise.then((result)=>{
-console.log('promise got resolved',result)
-})
-.catch((error)=>{
-    console.error('Error',error)
-})
+// promise.then((result)=>{
+// console.log('promise got resolved',result)
+// })
+// .catch((error)=>{
+//     console.error('Error',error)
+// })
+
+//Promises has 4 Methods.
+// 1 promise .all()
+// 2 promise.allsettled()
+// 3 promise.any()
+// 4 promise.race
